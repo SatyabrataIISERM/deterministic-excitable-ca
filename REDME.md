@@ -1,23 +1,40 @@
-# Deterministic Cellular Automaton for Action Potential Propagation
+# Deterministic Excitable Cellular Automaton
+![Simulation](examples/simulation.gif)
 
-This repository contains a deterministic cellular automaton model that captures qualitative features of neuronal excitation waves.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)]()
 
-## Model Description
+Overview
 
-- Grid size: 100×100
-- States:
-  - 0 → Resting
-  - 1 → Excited
-  - 2 → Refractory
-- Neighborhood: Moore (8 neighbors)
-- Boundary: Periodic (torus)
+This repository implements a **deterministic excitable cellular automaton** that models wave-like excitation patterns, qualitatively analogous to action potential propagation in excitable media.
 
-## Rules
+The model was developed as part of coursework in computational biology.
 
-1. Resting → Excited if exactly two neighbors are excited
-2. Excited → Refractory
-3. Refractory → Resting
+---
 
-## Run
+Model Summary
 
+Each cell can be in one of three states:
+
+| State       | Meaning        |
+|-------------|----------------|
+| `0`         | Resting (OFF)  |
+| `1`         | Excited (ON)   |
+| `2`         | Refractory     |
+
+The update rules:
+
+1. Resting → Excited if **exactly two neighbors are excited**  
+2. Excited → Refractory  
+3. Refractory → Resting (recover)
+
+Periodic (toroidal) boundary conditions are used.
+
+---
+ Installation
+
+Either using pip:
+
+```bash
+pip install -r requirements.txt
 
