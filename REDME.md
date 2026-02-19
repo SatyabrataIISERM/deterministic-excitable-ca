@@ -31,10 +31,10 @@ The update rules:
 Periodic (toroidal) boundary conditions are used.
 
 ---
- Installation
+## Visual Simulation
 
-Either using pip:
+<p align="center">
+  <img src="examples/simulation.gif" width="600px">
+</p>
 
-```bash
-pip install -r requirements.txt
 
