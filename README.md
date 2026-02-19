@@ -110,13 +110,8 @@ The simulation initializes the grid with 10% of cells in the ON state and evolve
 
 This animation visualizes the emergent propagation waves over discrete time steps.
 
+
+
 ---
 
-## How to Run
-
-### Dependencies
-
-Install required packages:
-
-```bash
-pip install -r requirements.txt
+*Created as a project for IDC621 - Modelling Complex Systems.*
