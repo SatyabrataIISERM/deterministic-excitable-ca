@@ -105,7 +105,7 @@ The simulation initializes the grid with 10% of cells in the ON state and evolve
 ### Simulation Animation
 
 <p align="center">
-  <img src="examples/simulation.gif" width="600px">
+  <img src="simulation.gif" width="600px">
 </p>
 
 This animation visualizes the emergent propagation waves over discrete time steps.
