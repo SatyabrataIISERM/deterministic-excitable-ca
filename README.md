@@ -3,7 +3,7 @@
 
 This model is a **deterministic discrete simulation framework** that demonstrates how complex spatiotemporal excitation patterns can emerge from simple local interaction rules on a 2D grid.
 
-Instead of solving global differential equations, the system uses **nearest-neighbor deterministic update rules** inspired by excitable media dynamics — akin to action potential propagation in neurons and excitable tissues.
+Instead of solving global differential equations, the system uses **nearest-neighbor deterministic update rules** inspired by excitable media dynamics akin to action potential propagation in neurons and excitable tissues.
 
 Built using **NumPy + Matplotlib**, the engine simulates the time evolution of discrete waves and visualizes emergent behavior arising from neighbor interactions.
 
